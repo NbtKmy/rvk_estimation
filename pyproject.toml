@@ -3,12 +3,13 @@ name = "rvk-estimation"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = [
     "gradio>=5.0.0",
     "httpx>=0.28.1",
     "loguru>=0.7.3",
     "lxml>=6.0.2",
+    "huggingface-hub>=0.27.0",
     "qdrant-client>=1.17.0",
     "tqdm>=4.67.3",
 ]

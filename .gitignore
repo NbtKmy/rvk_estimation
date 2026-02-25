@@ -250,13 +250,16 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-####################
-# このプロジェクト固有 #
-####################
+##############
+# For Qdrant #
+##############
 
-# Qdrantのベクトルデータ（再構築可能なため除外）
+# Vector Store Qdrant
 qdrant_data/
 
-# RVK XMLダンプ（大容量、公式サイトから取得可能）
+# RVK XML Data
 rvko_marcxml_*.xml
+
+# Snapshot - falls vorhanden
+*.snapshot
 

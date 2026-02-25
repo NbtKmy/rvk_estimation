@@ -8,6 +8,9 @@ auf Basis von Vektorsuche (Qdrant) und einem lokalen LLM (Ollama).
 
 ## Schnellstart
 
+Zuerst bitte die Softwares wie uv, Docker und Ollama installieren!  
+
+
 ```bash
 # 1. Repository klonen
 git clone https://github.com/nkamiy/rvk_estimation.git
